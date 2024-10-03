@@ -1,0 +1,246 @@
+
+
+.headerMain{
+  background-color: rgb(64, 18, 203);
+  color: white;
+}
+.headerMain .row {
+  padding: 100px 120px;
+}
+.headerMain .row .col-6{
+  padding: 0 40px;
+}
+.headerNumber{
+  font-size: 3rem;
+}
+.text-justify{
+  text-align: justify;
+  font-size: .7rem;
+}
+.headerMain hr{
+  height: 1px;
+  border: 2px solid white;
+  outline: none;
+  position: relative;
+}
+.learnMore span{
+  width: 7rem;
+}
+@media( max-width: 600px){
+  .headerMain{
+    background-color: rgb(64, 18, 203);
+    color: white;
+  }
+  .headerMain .row {
+    padding: 10px 10px;
+  }
+  .headerMain .row .col-lg-6{
+    padding: 40px 40px;
+  }
+  .headerNumber{
+    font-size: 3rem;
+  }
+  .headerMain hr{
+    height: 1px;
+    border: 2px solid white;
+    outline: none;
+    position: relative;
+  }
+  .learnMore span{
+    width: 7rem;
+  }
+}
+/* Second Heading */
+.secondHeading{
+  font-size: 110px;
+  padding: 0 300px;
+  margin: 250px 0 70px 0;
+  text-align: center;
+}
+.secondHeaderMain button{
+  border: solid 2px rgb(64, 18, 203);
+  background-color: white;
+  color: rgb(64, 18, 203);
+  padding: 20px 60px;
+  border-radius: 5px;
+ 
+}
+.secondHeaderBottomMain{
+  padding: 100px 110px;
+  font-weight: bold;
+  margin: 0 0 150px 0;
+}
+.secondHeaderBottomMain div{
+  width: 300px;
+  flex-wrap: wrap;
+}
+.secondHeaderBottom{
+  font-size: 33px;
+}
+@media (max-width:1000px){
+  .secondHeading{
+    font-size: 50px;
+    padding: 0 10px;
+    margin: 250px 0 70px 0;
+    text-align: center;
+  }
+  .secondHeaderMain button{
+    border: solid 2px rgb(64, 18, 203);
+    background-color: white;
+    color: rgb(64, 18, 203);
+    padding: 20px 60px;
+    border-radius: 5px;
+   
+  }
+  .secondHeaderBottomMain{
+    padding: 10px 11px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: justify;
+    flex-wrap: wrap;
+  }
+  .secondHeaderBottom{
+    font-size: 12px;
+  }
+} 
+@media (max-width:600px){
+  .secondHeading{
+    font-size: 50px;
+    padding: 0 10px;
+    margin: 250px 0 70px 0;
+    text-align: center;
+  }
+  .secondHeaderMain button{
+    border: solid 2px rgb(64, 18, 203);
+    background-color: white;
+    color: rgb(64, 18, 203);
+    padding: 20px 60px;
+    border-radius: 5px;
+   
+  }
+  .secondHeaderBottomMain{
+    padding: 10px 11px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: justify;
+    flex-wrap: wrap;
+  }
+  .secondHeaderBottom{
+    font-size: 12px;
+  }
+} 
+
+/* Footer */
+.footerMain{
+  background-color: rgb(64, 18, 203);
+  color: white;
+  padding: 60px 0 ;
+}
+.footerMain .container{
+  text-align: end;
+}
+.footerMain .container .btn{
+  background-color: white;
+  color: rgb(64, 18, 203);
+
+}
+.footerHead{
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  padding: auto;
+}
+.footerLinks .row {
+  max-width: 70vw;
+  margin: auto;
+}
+.footerLinks .row  div div a{
+  color: white;
+}
+.footerLinks .row  div div{
+  padding:   15px 0;
+  text-align: start;
+
+}
+.Footerdiv{
+  text-align: center;
+  margin-top: 100px;
+}
+@media (max-width:600px){
+
+  .footerHead{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 0 0 0 80px;
+  }
+  .footerLinks .row {
+    max-width: 70vw;
+    margin: auto;
+
+  }
+  .footerLinks .row  div div a{
+    color: white;
+  }
+  .footerLinks .row  div div{
+    padding:   15px 0;
+    text-align: center;
+  
+  }
+  .Footerdiv{
+    text-align: center;
+    margin-top: 100px;
+  }
+}
+/* Learn More */
+.learnMoreMain .learn{
+  max-width: 70vw;
+  margin:   100px 0 ;
+  text-align: justify;
+  font-size: .7rem;
+  font-weight: 500;
+  font-family: "Lato", sans-serif;
+
+}
+
+.learnSecond .row{
+  max-width: 80vw;
+  margin: auto;
+  padding: 50px 50px;
+  background-color: rgb(64, 18, 203);
+  color: white;
+}
+.learnSecond .row .learnFirst{
+  font-size: 45px;
+  padding-right: 10vw;
+}
+.learnSecond .btn{
+  margin-top: 10px;
+  border: solid 2px white;
+  background-color: rgb(64, 18, 203);
+  color: white;
+  font-weight: bold;
+  padding: 10px 70px;
+  border-radius: 5px;
+ 
+}
+.learnSecond{
+  font-size: .7rem;
+}
+@media (max-width:1000px){
+  .learnSecond .row .learnFirst{
+    font-size: 25px;
+    padding-right: 0;
+
+  }
+  .learnSecond .btn{
+    margin-top: 10px;
+    border: solid 2px white;
+    background-color: rgb(64, 18, 203);
+    color: white;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 5px;
+   
+  }
+}
